@@ -15,6 +15,7 @@
 		91C479CE22C2C2CF00655F86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C479CD22C2C2CF00655F86 /* main.m */; };
 		91C479D822C2C2D000655F86 /* TipCalcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C479D722C2C2D000655F86 /* TipCalcTests.m */; };
 		91C479E322C2C2D000655F86 /* TipCalcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C479E222C2C2D000655F86 /* TipCalcUITests.m */; };
+		91C479F222C2EF9E00655F86 /* SettingVIewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91C479F122C2EF9E00655F86 /* SettingVIewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		91C479DE22C2C2D000655F86 /* TipCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		91C479E222C2C2D000655F86 /* TipCalcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TipCalcUITests.m; sourceTree = "<group>"; };
 		91C479E422C2C2D000655F86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91C479F022C2EF9E00655F86 /* SettingVIewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingVIewController.h; sourceTree = "<group>"; };
+		91C479F122C2EF9E00655F86 /* SettingVIewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingVIewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				91C479C122C2C2CF00655F86 /* ViewController.h */,
 				91C479C222C2C2CF00655F86 /* ViewController.m */,
 				91C479C422C2C2CF00655F86 /* Main.storyboard */,
+				91C479F022C2EF9E00655F86 /* SettingVIewController.h */,
+				91C479F122C2EF9E00655F86 /* SettingVIewController.m */,
 				91C479C722C2C2CF00655F86 /* Assets.xcassets */,
 				91C479C922C2C2CF00655F86 /* LaunchScreen.storyboard */,
 				91C479CC22C2C2CF00655F86 /* Info.plist */,
@@ -265,6 +270,7 @@
 				91C479C322C2C2CF00655F86 /* ViewController.m in Sources */,
 				91C479CE22C2C2CF00655F86 /* main.m in Sources */,
 				91C479C022C2C2CF00655F86 /* AppDelegate.m in Sources */,
+				91C479F222C2EF9E00655F86 /* SettingVIewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +442,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4NNK8U3CZ8;
 				INFOPLIST_FILE = TipCalc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4NNK8U3CZ8;
 				INFOPLIST_FILE = TipCalc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
