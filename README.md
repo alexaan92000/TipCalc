@@ -34,7 +34,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+The biggest challenge that occured while workig on the app was the animation component. 
 
 ## Credits
 
